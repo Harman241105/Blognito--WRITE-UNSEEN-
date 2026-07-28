@@ -5,25 +5,25 @@ import './About.css';
 // The Team Data Array
 const teamMembers = [
   {
-    name: "Hitesh Kumar",
+    name: "Harman Bawa",
     role: "Full Stack Developer",
     bio: "Specializes in the MERN stack and crafting intuitive UIs. Fuels his coding sessions with intense strength training and a strict vegetarian diet."
   },
-  {
-    name: "Himanshu",
-    role: "Frontend Developer",
-    bio: "Focuses on clean system architecture and building out core, scalable platform features."
-  },
-  {
-    name: "Taran",
-    role: "Frontend Developer",
-    bio: "Focuses on clean system architecture and building out core, scalable platform features."
-  },
-  {
-    name: "Saksham",
-    role: "UI/UX & Developer",
-    bio: "Brings complex ideas to life through robust frontend and backend API integration."
-  }
+  // {
+  //   name: "Himanshu",
+  //   role: "Frontend Developer",
+  //   bio: "Focuses on clean system architecture and building out core, scalable platform features."
+  // },
+  // {
+  //   name: "Taran",
+  //   role: "Frontend Developer",
+  //   bio: "Focuses on clean system architecture and building out core, scalable platform features."
+  // },
+  // {
+  //   name: "Saksham",
+  //   role: "UI/UX & Developer",
+  //   bio: "Brings complex ideas to life through robust frontend and backend API integration."
+  // }
 ];
 
 const About = () => {
@@ -53,12 +53,12 @@ const About = () => {
               <ul className="fact-list">
                 <li><MapPin size={18} className="fact-icon" /> Sahibzada Ajit Singh Nagar, Punjab</li>
                 <li><Code2 size={18} className="fact-icon" /> MERN Stack Focus</li>
-                <li><Users size={18} className="fact-icon" /> 5 Core Contributors</li>
+                {/* <li><Users size={18} className="fact-icon" /> 5 Core Contributors</li> */}
               </ul>
             </div>
 
             <div className="social-links">
-              <a target='_blank' href="https://github.com/g-hitesh" className="social-btn"><Globe size={20} /> Team GitHub</a>
+              <a target='_blank' href="https://github.com/Harman241105" className="social-btn"><Globe size={20} />  GitHub</a>
               {/* <a href="#" className="social-btn"><Mail size={20} /> Contact Us</a> */}
             </div>
           </aside>

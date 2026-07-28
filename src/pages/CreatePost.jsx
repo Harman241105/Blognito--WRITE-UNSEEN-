@@ -32,7 +32,7 @@ const CreatePost = () => {
       category: formData.category,
       excerpt: formData.excerpt,
       content: formData.content,
-      author: "Hitesh Kumar",
+      author: "Harman Bawa",
       date: new Date().toISOString().split('T')[0],
       readTime: `${Math.max(1, Math.ceil(formData.content.length / 800))} min read`,
       imageUrl: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80"
